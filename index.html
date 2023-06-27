@@ -5,8 +5,103 @@
 </script>
     <title>My Simple Site</title>
 </head>
+    
+<title>Complex HTML Site</title>
+    <style>
+        /* CSS styles for the site */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        
+        .slider-container {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .slider {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .slider img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .slider-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .slider-arrow.prev {
+            left: 20px;
+        }
+        
+        .slider-arrow.next {
+            right: 20px;
+        }
+    </style>
+</head>
 <body>
-    <h1>Welcome to My Simple Site</h1>
-    <p>This is a sample paragraph.</p>
-</body>
+    <div class="container">
+        <h1>Welcome to Our Complex HTML Site</h1>
+        
+        <h2>Small Text</h2>
+        <p>This is an example of small text. (English: Hello!)</p>
+        
+        <h2>Medium Text</h2>
+        <p>This is an example of medium text. It provides more information. (French: Bonjour!) (German: Guten Tag!)</p>
+        
+        <h2>Large Text</h2>
+        <p style="font-size: 24px;">This is an example of large text. It stands out and grabs attention. (English: Welcome!) (French: Bienvenue!) (German: Willkommen!)</p>
+        
+        <h2>Titles</h2>
+        <h1>Heading Level 1 (English: Title Level 1)</h1>
+        <h2>Heading Level 2 (English: Title Level 2)</h2>
+        <h3>Heading Level 3 (English: Title Level 3)</h3>
+        <h4>Heading Level 4 (English: Title Level 4)</h4>
+        <h5>Heading Level 5 (English: Title Level 5)</h5>
+        <h6>Heading Level 6 (English: Title Level 6)</h6>
+        
+        <h2>Paragraphs</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, nisl et tristique dapibus, eros risus tristique quam, non finibus est lorem sit amet justo. (English: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, nisl et
 </html>
